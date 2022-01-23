@@ -1,5 +1,5 @@
 {
-  "name": "daxta",
+  "name": "GraphQLHelixSample",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -20,8 +20,13 @@
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
     "@nrwl/angular": "13.4.6",
+    "express": "^4.17.2",
+    "express-jwt": "^6.1.0",
+    "graphql": "^16.2.0",
+    "graphql-helix": "^1.11.0",
     "rxjs": "~7.4.0",
     "tslib": "^2.0.0",
+    "type-graphql": "^1.1.1",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
@@ -37,6 +42,7 @@
     "@nrwl/eslint-plugin-nx": "13.4.6",
     "@nrwl/jest": "13.4.6",
     "@nrwl/linter": "13.4.6",
+    "@nrwl/node": "13.4.6",
     "@nrwl/tao": "13.4.6",
     "@nrwl/workspace": "13.4.6",
     "@types/jest": "27.0.2",
